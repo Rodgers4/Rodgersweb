@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "static": {
+    "sitemap.xml": "sitemap.xml"
+  },
   "routes": [
     { "src": "/sitemap.xml", "dest": "/sitemap.xml" },
     { "src": "/(.*)", "dest": "/index.html" }
