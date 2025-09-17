@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "static": {
-    "sitemap.xml": "sitemap.xml"
-  },
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" }
+  ],
   "routes": [
-    { "src": "/sitemap.xml", "dest": "/sitemap.xml" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
